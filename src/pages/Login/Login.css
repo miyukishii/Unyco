@@ -1,0 +1,47 @@
+.login-page {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.login-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  color: #fff;
+  margin-top: 10rem;
+}
+
+.login-container input {
+  margin: 0.8rem 0;
+  width: 50%;
+  border-radius: 0.3rem;
+  padding: 0.6rem;
+}
+
+.login-container button {
+  margin: 0.8rem 0;
+  width: 30%;
+  border-radius: 0.3rem;
+  padding: 0.6rem;
+}
+
+@media screen and (min-width: 1440px) {
+  .login-page {
+    font-size: 2rem;
+  }
+
+  .login-container input {
+    width: 20%;
+    font-size: 1.3rem;
+  }
+  
+  .login-container button {
+    width: 10%;
+    font-size: 1.2rem;
+  }
+}

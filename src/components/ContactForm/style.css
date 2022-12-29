@@ -1,0 +1,98 @@
+.form-question {
+  padding: 0 0.5rem;
+}
+
+.form-question p {
+  color: #BBBBBB;
+  margin: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input, select{
+  margin: 0.3rem 0;
+  border-radius: 0.2rem;
+  padding: 0.7rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+::placeholder { 
+  color: #D8D7CE;
+}
+
+select:required:invalid {
+  color: #D8D7CE;
+}
+
+option[value=""][disabled] {
+  display: none;
+}
+
+option {
+  color: black;
+}
+
+.checkbox-info {
+  display: flex;
+  color: #858479;
+  font-size: 0.9rem;
+  align-items: center;
+}
+
+.checkbox-info span {
+  color: #D8D7CE;
+}
+
+input[type="checkbox"]{
+  zoom: 2;
+  margin-right: 0.2rem;
+  border-width: px;
+}
+
+.send-button {
+  background-color: #C5AF19;
+  border-radius: 0.2rem;
+  color: #fff;
+  margin: 1rem 0;
+  padding: 0.6rem;
+  text-transform: uppercase;
+  width: 100%;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 1440px)  {
+  .form-question {
+    margin: 0 19rem ;
+    padding: 2rem 0;
+    text-align: center;
+  }
+
+  .form-question > p:first-child {
+    margin: 2rem ;
+    font-size: 1.75rem;
+  }
+
+  .contact-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+  }
+
+  .contact-form input, select{
+    border-radius: 0.2rem;
+    padding: 0.7rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    width: auto;
+  }
+
+  .send-button {
+    width: 20rem;
+  }
+}

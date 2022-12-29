@@ -1,0 +1,78 @@
+.images-container {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.title-images-container {
+  color: #fff;
+  margin: 1rem 0;
+  text-transform: uppercase;
+}
+
+.description-images-container {
+  color: #858479;
+  font-size: 0.8rem;
+  margin: 1rem 0;
+}
+
+.carrousel {
+  display: flex;
+  position: relative;
+  overflow-x: auto;
+}
+
+.carrousel button {
+  background: transparent;
+  border: none;
+}
+
+.spotilight-image {
+  margin-right: 0.5rem;
+  width: 9rem;
+  height: 5rem;
+}
+
+.spotilight-image:hover {
+  border: 5px solid #C5AF19;
+}
+
+.spotlight-image-desktop {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  section {
+    background-color: #fff;
+    display: flex;
+    height: 20rem;
+    margin: 2rem 9.5rem ;
+    border-radius: 0.5rem;
+  }
+
+  .spotlight-image-desktop {
+    display: block;
+    min-width: 50%;
+    border-radius: 0.5rem 0 0 0.5rem  ;
+  }
+
+  .images-container {
+    padding: 1.75rem;
+    width: 45%;
+  }
+
+  .title-images-container {
+    color: #1D1A05;
+    font-size: 1.75rem;
+    text-align: left;
+  }
+
+  .description-images-container {
+    font-size: 1rem;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+
+  .spotilight-image {
+    margin-right: 5%;
+  }
+}

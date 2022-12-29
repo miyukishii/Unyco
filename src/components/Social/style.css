@@ -1,0 +1,40 @@
+.social-medias {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.social-medias p {
+  margin-top: 2rem;
+  margin-bottom: 0.7rem;
+}
+
+.social-medias a {
+  margin: 1.1rem;
+}
+
+.social-icon {
+  color: #858479;
+  font-size: 1.3rem;
+}
+
+.social-icon:hover {
+  color: #fff;
+}
+
+@media screen and (min-width: 1440px)  {
+  .social-medias {
+    margin: 1rem 30%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #858479;
+  }
+
+  .social-medias > p:first-child {
+    display: none;
+  }
+
+  .social-links {
+    margin: 1rem 1.5rem;
+  }
+}

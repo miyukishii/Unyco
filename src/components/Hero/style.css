@@ -1,0 +1,121 @@
+main {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.main-hero {
+  width: 100%;
+}
+
+.main-info {
+  padding: 0.5rem;
+}
+
+.title {
+  font-size: 1.7rem;
+}
+
+.subtitle {
+  color: #999999;
+  font-size: 1.3rem;
+}
+
+.info-button {
+  background-color: #C5AF19;
+  border-radius: 0.2rem;
+  color: #fff;
+  margin: 1rem 0;
+  padding: 0.6rem;
+  width: 100%;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 0;
+  font-size: 0.8rem;
+}
+
+.icon {
+  width: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.extra-info {
+  padding: 0 0.5rem;
+}
+
+.extra-info p{
+  margin: 1.5rem 0;
+}
+
+.questions-button {
+  background-color: transparent;
+  border: 0.1em solid #fff;
+  border-radius: 0.2rem;
+  color: #fff;
+  padding: 0.6rem;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.info-button-desktop {
+  display: none;
+}
+
+.info-button-desktop:hover, .info-button:hover {
+  background-color: #C09117;
+}
+
+
+@media screen and (min-width: 1440px) {
+	main {
+    margin: 0 9.5rem;
+  }
+
+  .main-info {
+    /* position: absolute; */
+    border: none;
+    /* bottom: -1; */
+  }
+
+  .title {
+    font-size: 2.25rem;
+  }
+  
+  .subtitle {
+    font-size: 1.75rem;
+  }
+
+  .info-button {
+    display: none;
+    width: 30%;
+  }
+
+  .info-button-desktop {
+    display: block;
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
+
+  .icons-container {
+    justify-content: space-between;
+    width: auto;
+  }
+
+  .icons-container div {
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+  }
+
+  .icon {
+    margin-right: 1rem;
+    width: 5rem;
+  }
+
+  .extra-info {
+    display: none;
+  }
+}

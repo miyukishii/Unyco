@@ -1,0 +1,89 @@
+footer {
+  color: #858479;
+  font-size: 0.5rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+footer img {
+  width: 3rem;
+}
+
+.footer-links-mobile {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.5rem;
+}
+
+.footer-coin {
+  display: flex;
+  margin-bottom: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-coin p{
+  margin: 0 0.5rem;
+}
+
+.footer-links {
+  margin: 0.5rem;
+  justify-content: center;
+}
+
+.links-titles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links img, .footer-coin-desktop{
+  display:none;
+}
+
+@media screen and (min-width: 1440px) {
+  footer {
+    font-size: 0.875rem;
+  }
+
+  .footer-links-mobile > img:first-child {
+    display: none;
+  }
+
+  .footer-links {
+    display: flex;
+    margin: 0.5rem;
+    justify-content: space-between;
+  }
+
+  .footer-links img, .footer-coin-desktop{
+    display: block;
+  }
+
+  .footer-links img{
+    width: 5.6rem
+  }
+
+  .footer-coin {
+    display: none;
+  }
+
+  .links-titles {
+    text-transform: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 7rem;
+  }
+
+  .links-titles p, .footer-coin-desktop p {
+    margin: 0 1rem;
+  }
+
+  .footer-coin-desktop {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer-coin-desktop p:hover {
+    color: #fff;
+  }
+}

@@ -1,0 +1,82 @@
+.header-menu {
+  display: none
+}
+  
+.header-menu-active {
+  background-color: #fff;
+  box-shadow: 0px 2px 8px 0px #00000040;
+  color: #858479;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 0 1rem;
+  position: absolute;
+  right: 0;
+  top: 43px;
+  width: 14rem;
+  z-index: 5;
+}
+
+.welcome-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.welcome-message {
+  margin: 1rem 0;
+  font-weight: normal;
+}
+
+.split{
+  height: 0.07rem;
+  background-color: #F2ECC9;
+}
+
+.link {
+  margin: 1.8rem 0;
+}
+
+.link:hover {
+  color: #C5AF19;
+}
+
+.contact {
+  color: #1D1A05;
+  margin-top: 1rem;
+}
+
+.contact-info {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin: 0.8rem 0;
+}
+
+.contact-number-menu {
+  margin-left: 0.3rem;
+}
+
+.finish-session {
+  margin: 1rem 0;
+}
+
+@media screen and (min-width: 1440px) {
+  .welcome-container {
+    display: none;
+  }
+
+  .header-menu-active {
+    height: 20rem;
+    text-align: right;
+  }
+
+  .contact, .contact-info {
+    display: none;
+  }
+
+  .finish-session:hover {
+    color: #000;
+  }
+}
