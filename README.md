@@ -1,5 +1,12 @@
 ## **Bem-vindo ao repositório do projeto Unyco**
 
+Projeto Unyco
+- Versão mobile
+![Screenshot da aplicação](unyco-mobile (1).gif)
+
+- Versão desktop
+![Screenshot da aplicação](desktop-unyco.gif)
+
 ### Contexto
 Neste projeto foi desenvolvido uma Landing Page de uma escola fictícia que oferece cursos online. É possível realizar login da aplicação, assim como ter uma visão superficial de um site com o front-end completo.
 
