@@ -1,10 +1,10 @@
 ## **Bem-vindo ao repositório do projeto Unyco**
 
-Projeto Unyco
-- Versão mobile
-![Screenshot da aplicação](unyco-mobile (1).gif)
+##Projeto Unyco
+###Versão mobile
+![Screenshot da aplicação](unyco-mobile(1).gif)
 
-- Versão desktop
+##Versão desktop
 ![Screenshot da aplicação](desktop-unyco.gif)
 
 ### Contexto
