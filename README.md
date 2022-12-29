@@ -1,6 +1,6 @@
-## **Bem-vindo ao repositório do projeto Unyco**
+## **Bem-vindo ao repositório do projeto Unycos**
 
-## Projeto Unyco
+## Projeto Unycos
 ### Versão mobile
 ![Screenshot da aplicação](unyco-mobile.gif)
 
