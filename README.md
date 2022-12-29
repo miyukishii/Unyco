@@ -8,7 +8,7 @@ Projeto desenvolvido utilizando React.js, CSS3, COntext API como gerenciador de 
 
 ### Como utilizar a aplicação
 - Dê um git clone no repositório do projeto;
-- Entre na pasta da aplicação 'unyco', instale as dependências com npm install e inicie a aplicação com npm start;
+- Entre na pasta raíz da aplicação, instale as dependências com npm install e inicie a aplicação com npm start;
 - Na página de Login digite um e-mail válido. Ex: nome@domínio.com;
 - Digite ainda uma senha com no mínimo 7 dígitos da sua preferência;
 - Ou acesse o link do deploy <a href="https://unyco.vercel.app/">Aqui</a>
