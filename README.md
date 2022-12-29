@@ -11,7 +11,7 @@
 Neste projeto foi desenvolvido uma Landing Page de uma escola fictícia que oferece cursos online. É possível realizar login da aplicação, assim como ter uma visão superficial de um site com o front-end completo.
 
 ### Tecnologias utilizadas
-Projeto desenvolvido utilizando React.js, CSS3, COntext API como gerenciador de esto global e hooks, além do consumo dinâmico de uma RestAPI (https://api.beta.unycos.com)
+Projeto desenvolvido utilizando React.js, CSS3, Context API como gerenciador de estado global e hooks, além do consumo dinâmico de uma RestAPI (https://api.beta.unycos.com)
 
 ### Como utilizar a aplicação
 - Dê um git clone no repositório do projeto;
